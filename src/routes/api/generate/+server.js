@@ -20,7 +20,7 @@ export async function GET({ url }) {
         },
         body: JSON.stringify({
             model: 'gpt-3.5-turbo',
-            messages: [{ role: 'user', content: `Generate a proverb akin to one from "Thing fall apart", try to make it funny, and put a spin on it based on the following keyword(s) : ${query}. \n Here are some examples when given the keyword "gen z" : "Never trust someone who uses 3 in 1 shampoo, body wash, and conditioner"
+            messages: [{ role: 'user', content: `Generate a proverb akin to one from "Thing fall apart", try to make it funny, and metiphorical, and put a spin on it based on the following keyword(s) : ${query}. \n Here are some examples when given the keyword "gen z" : "Never trust someone who uses 3 in 1 shampoo, body wash, and conditioner"
 
             "Remember reality when it starts to blur with virtual reality."
             
